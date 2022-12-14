@@ -12,6 +12,6 @@ print()
 print()
 translator = Translator()
 tran = translator.translate(tex, dest = "fr")
-a = tran.tex
+a = tran.text
 print(a)
 # print(googletrans.LANGUAGES)
